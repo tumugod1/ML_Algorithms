@@ -19,7 +19,7 @@ OUT = Path("Linear_Regression_Outputs")
 OUT.mkdir(parents=True, exist_ok=True)
 
 # -------------------- VERİ --------------------
-df = pd.read_csv('datasets/EcommerceCustomers.csv')
+df = pd.read_csv('data/EcommerceCustomers.csv')
 
 X = df[['Avg. Session Length', 'Time on App', 'Time on Website', 'Length of Membership']]
 y = df['Yearly Amount Spent']
