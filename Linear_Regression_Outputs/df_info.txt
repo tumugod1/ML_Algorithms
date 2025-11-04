@@ -1,0 +1,15 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 500 entries, 0 to 499
+Data columns (total 8 columns):
+ #   Column                Non-Null Count  Dtype  
+---  ------                --------------  -----  
+ 0   Email                 500 non-null    object 
+ 1   Address               500 non-null    object 
+ 2   Avatar                500 non-null    object 
+ 3   Avg. Session Length   500 non-null    float64
+ 4   Time on App           500 non-null    float64
+ 5   Time on Website       500 non-null    float64
+ 6   Length of Membership  500 non-null    float64
+ 7   Yearly Amount Spent   500 non-null    float64
+dtypes: float64(5), object(3)
+memory usage: 31.4+ KB
